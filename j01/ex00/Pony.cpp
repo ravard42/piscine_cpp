@@ -11,6 +11,6 @@ Pony::~Pony( void ) {
 }
 
 void	Pony::doSomeStuff (void) const {
-	std::cout << this->_color << " Pony " << this->_action << std::endl;
+	std::cout << this->_color << "Pony " << this->_action << std::endl;
 }
 
