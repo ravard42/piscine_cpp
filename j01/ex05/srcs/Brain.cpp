@@ -1,0 +1,13 @@
+#include "ex05.h"
+
+Brain::Brain( void ) {
+	std::cout << "Brain constructor called" << std::endl;
+}
+
+Brain::~Brain( void ) {
+	std::cout << "Brain destructor called" << std::endl;
+}
+
+Brain const		*Brain::identify() const {
+	return this;
+};
