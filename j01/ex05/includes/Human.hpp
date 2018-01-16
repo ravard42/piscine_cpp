@@ -10,11 +10,11 @@ private:
 
 public:
 
-	Human(std::string brainTaste);
+	Human( void );
 	~Human( void );
 
-	Brain const		&getBrain ( void ) const;
 	Brain const		*identify( void ) const;
+	Brain const		&getBrain ( void ) const;
 
 };
 
