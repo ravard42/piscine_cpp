@@ -3,12 +3,15 @@
 
 class	Brain {
 
+private:
+	std::string const	_taste;
+
 public:
 
-	Brain( void );
+	Brain(std::string taste);
 	~Brain( void );
 
-	Brain const 		*identify() const;
+	Brain const  		*identify() const;
 
 };
 

@@ -10,7 +10,7 @@ private:
 
 public:
 
-	Human( void);
+	Human(std::string brainTaste);
 	~Human( void );
 
 	Brain const		&getBrain ( void ) const;

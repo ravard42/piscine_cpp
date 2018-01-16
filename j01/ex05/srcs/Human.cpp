@@ -1,7 +1,7 @@
 #include "ex05.h"
 
-Human::Human( void ) {
-	std::cout << "Human destructor called" << std::endl;
+Human::Human(std::string brainTaste) : _brain(brainTaste) {
+	std::cout << "Human constructor called" << std::endl;
 }
 
 Human::~Human( void ) {
