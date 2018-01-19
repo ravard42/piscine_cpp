@@ -10,9 +10,9 @@ struct						s_attack {
 int			Human::_n = 3;
 
 s_attack	Human::_attack[] = {
-	{"meleeAttack", &Human::meleeAttack},
-	{"rangedAttack", &Human::rangedAttack},
-	{"intimidatingShout", &Human::intimidatingShout}
+	{"meleeAttack", &Human::_meleeAttack},
+	{"rangedAttack", &Human::_rangedAttack},
+	{"intimidatingShout", &Human::_intimidatingShout}
 };
 
 Human::Human( void ) {
@@ -24,15 +24,15 @@ Human::~Human( void ) {
 }
 
 
-void	Human::meleeAttack(std::string const & target) {
+void	Human::_meleeAttack(std::string const & target) {
 	std::cout << "meleeAttack on " << target << std::endl;
 }
 
-void 	Human::rangedAttack(std::string const & target) {
+void 	Human::_rangedAttack(std::string const & target) {
 	std::cout << "rangedAttack on " << target << std::endl;
 }
 
-void 	Human::intimidatingShout(std::string const & target) {
+void 	Human::_intimidatingShout(std::string const & target) {
 	std::cout << "intimidatingShout on " << target << std::endl;
 }
 

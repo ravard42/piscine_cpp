@@ -11,9 +11,9 @@ private:
 	static s_attack	_attack[];
 	static int		_n;
 
-	void 			meleeAttack(std::string const & target);
-	void 			rangedAttack(std::string const & target);
-	void 			intimidatingShout(std::string const & target);
+	void 			_meleeAttack(std::string const & target);
+	void 			_rangedAttack(std::string const & target);
+	void 			_intimidatingShout(std::string const & target);
 	
 public:
 
