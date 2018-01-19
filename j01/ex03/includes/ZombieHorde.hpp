@@ -1,6 +1,9 @@
 #ifndef ZOMBIEEVENT_HPP
 # define ZOMBIEEVENT_HPP
 
+#include <iostream>
+//#include <time.h>
+
 #include "Zombie.hpp"
 
 class	ZombieHorde {

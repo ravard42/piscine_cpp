@@ -1,4 +1,4 @@
-#include "ex03.h"
+#include "Zombie.hpp"
 
 Zombie::Zombie( void ) : _type("default"), _name("default") {
 	std::cout << "Zombie constructor called" << std::endl;

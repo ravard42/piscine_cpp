@@ -1,4 +1,6 @@
-#include "ex06.h"
+#include "Weapon.hpp"
+#include "HumanA.hpp"
+#include "HumanB.hpp"
 
 int main() {
 	{	

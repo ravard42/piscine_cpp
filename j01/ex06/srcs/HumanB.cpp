@@ -1,4 +1,4 @@
-#include "ex06.h"
+#include "HumanB.hpp"
 
 HumanB::HumanB( std::string name ) : _name(name) {
 	std::cout << "HumanB constructor called" << std::endl;

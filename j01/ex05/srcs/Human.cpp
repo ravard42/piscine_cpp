@@ -1,4 +1,4 @@
-#include "ex05.h"
+#include "Human.hpp"
 
 Human::Human( void ) {
 	std::cout << "Human constructor called" << std::endl;

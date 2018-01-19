@@ -1,4 +1,4 @@
-#include "ex05.h"
+#include "Brain.hpp"
 
 Brain::Brain( void ) {
 	std::cout << "Brain constructor called" << std::endl;

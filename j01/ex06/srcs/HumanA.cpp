@@ -1,4 +1,4 @@
-#include "ex06.h"
+#include "HumanA.hpp"
 
 HumanA::HumanA( std::string name, Weapon &w ) : _name(name), _w(w) {
 	std::cout << "HumanA constructor called" << std::endl;

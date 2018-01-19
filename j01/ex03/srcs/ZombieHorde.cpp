@@ -1,4 +1,4 @@
-#include "ex03.h"
+#include "ZombieHorde.hpp"
 
 ZombieHorde::ZombieHorde(std::string type, int n) : _hordeType(type) {
 	std::cout << "ZombieHorde constructor called, "  << n << " (" << this->_hordeType << ") are about to raise from the ground!!!" << std::endl;

@@ -1,4 +1,5 @@
-#include "ex02.h"
+#include "Zombie.hpp"
+#include "ZombieEvent.hpp"
 
 int		main() {
 	Zombie		a(Zombie::bankType[0], "Alfred");

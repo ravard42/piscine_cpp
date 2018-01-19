@@ -1,4 +1,4 @@
-#include "ex03.h"
+#include "ZombieHorde.hpp"
 
 int		main() {
 	ZombieHorde	zh("rastaZombie", 20);

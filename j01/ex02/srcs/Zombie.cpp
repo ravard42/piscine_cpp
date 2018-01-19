@@ -1,4 +1,4 @@
-#include "ex02.h"
+#include "Zombie.hpp"
 
 Zombie::Zombie(std::string type, std::string name) : _type(type),
 														_name(name) {

@@ -1,4 +1,4 @@
-#include "ex02.h"
+#include "ZombieEvent.hpp"
 
 ZombieEvent::ZombieEvent(std::string type) : _eventType(type) {
 	std::cout << "ZombieEvent constructor called with _eventType set to: (" << this->_eventType << ")" << std::endl;
