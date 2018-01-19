@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <stdlib.h>
 
 int main(int argc, char **argv) {
 	std::ifstream	ifs;
