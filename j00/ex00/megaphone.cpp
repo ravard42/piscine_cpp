@@ -6,23 +6,23 @@
 /*   By: ravard <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/08 21:54:13 by ravard            #+#    #+#             */
-/*   Updated: 2018/01/09 21:18:07 by ravard           ###   ########.fr       */
+/*   Updated: 2018/03/26 00:57:47 by ravard           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-#include <ctype.h>
 
-char	*megaphone(char *arg) {
-	size_t		i;
+std::string		megaphone(std::string str) {
+	std::locale		loc;
+	size_t			i;
 
 	i = -1;
-	while (++i < strlen(arg))
-		arg[i] = toupper(arg[i]);
-	return arg;
+	while (++i < str.length())
+		str[i] = std::toupper(str[i], loc);
+	return str;
 }
 
-int		main(int argc, char **argv) {
+int				main(int argc, char **argv) {
 	int		i;
 
 	if (argc == 1)
