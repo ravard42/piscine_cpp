@@ -6,7 +6,7 @@
 /*   By: ravard <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/09 21:30:47 by ravard            #+#    #+#             */
-/*   Updated: 2018/03/28 04:29:34 by ravard           ###   ########.fr       */
+/*   Updated: 2018/03/28 04:51:38 by ravard           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,10 @@ int	main() {
 	n = -1;
 	while (buff.compare("EXIT")) {
 		if (!buff.compare("ADD")) {
-			if (++n < 8) 
+			if (n < 7) {
+				++n;
 				instance[n].setField(n);
+			}
 			else
 				std::cout << "votre carnet de contact est plein!" << std::endl;
 		}
@@ -37,7 +39,6 @@ int	main() {
 			if (std::cin.fail() || i < 0 || i > n)
 				std::cout << "Loupé! Ce contact n'existe pas!" << std::endl;
 			else
-				if (i <= 7)
 					instance[i].displayAll();
 			std::cin.clear();
 			std::cin.ignore(256,'\n');
