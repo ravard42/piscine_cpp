@@ -1,5 +1,5 @@
 CC = g++
-FLAGS = -Wall -Wextra -Werror -O0 -ggdb -fsanitize=address
+FLAGS = -Wall -Wextra -Werror -O0 -ggdb -fsanitize=address 
 NAME = ft_retro
 SRC =	srcs/main.cpp\
 		srcs/GameEntity.cpp\
