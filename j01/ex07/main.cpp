@@ -6,7 +6,7 @@
 /*   By: ravard <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/28 01:16:57 by ravard            #+#    #+#             */
-/*   Updated: 2018/03/28 01:24:18 by ravard           ###   ########.fr       */
+/*   Updated: 2018/04/11 04:06:07 by ravard           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
 	ofs.open(buff[0]);
 	ifs.open(argv[1]);
 	while (std::getline(ifs, buff[0])) {
-		while ((i = buff[0].find(buff[1])) != std::string::npos) {
+		while (buff[1].compare(buff[2]) && (i = buff[0].find(buff[1])) != std::string::npos) {
 			buff[0].erase(i, buff[1].length());
 			buff[0].insert(i, buff[2]);
 		}
